@@ -3,7 +3,7 @@ package com.wanderlei.moviesappk.data.remote
 import kotlinx.serialization.SerialName
 
 @kotlinx.serialization.Serializable
-data class MovieRemote(
+internal data class MovieRemote(
     val id: Int,
     val title: String,
     val overview: String,
