@@ -29,4 +29,4 @@ object Detail : Destination {
     val arguments = listOf(navArgument(name = "movieId") { type = NavType.IntType })
 }
 
-val movieDestination = listOf(Home, Detail)
+val movieDestinations = listOf(Home, Detail)

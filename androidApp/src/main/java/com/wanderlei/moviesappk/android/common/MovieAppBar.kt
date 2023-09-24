@@ -46,15 +46,14 @@ fun MovieAppBar(
                     )
                 }
                 Spacer(modifier = modifier.width(24.dp))
-
-                Text(
-                    text = currentScreen.title,
-                    style = MaterialTheme.typography.h6,
-                    modifier = modifier.padding(12.dp),
-                    color = MaterialTheme.colors.onSurface
-                )
-
             }
+
+            Text(
+                text = currentScreen.title,
+                style = MaterialTheme.typography.h6,
+                modifier = modifier.padding(12.dp),
+                color = MaterialTheme.colors.onSurface
+            )
         }
     }
 }
